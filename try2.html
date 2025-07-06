@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shrouk Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #fdf2f2;
+      color: #333;
+      line-height: 1.6;
+      padding: 0 20px;
+    }
+
+    header {
+      background-color: #b35457;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    nav {
+  background-color: #8e3c3e;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #c7696c; 
+  color: white;
+  text-decoration: none;
+}
+
+
+    .section {
+      margin: 50px auto;
+      max-width: 700px;
+    }
+
+    h2 {
+      color: #b35457;
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      color: #8e3c3e;
+      margin-top: 25px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    form label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #bbb;
+      border-radius: 6px;
+      box-sizing: border-box;
+      margin-top: 5px;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    button {
+      margin-top: 20px;
+      background-color: #b35457;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #8e3c3e;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+
+    .footer {
+      background-color: #f8dada;
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .footer a {
+      color: #b35457;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .social-icons img {
+      width: 24px;
+      margin: 0 5px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Shrouk Nasr</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="section" id="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is Shrouk Nasr. I'm a passionate learner interested in programming and design.</p>
+    <blockquote>"Learning never exhausts the mind." – Leonardo da Vinci</blockquote>
+  </div>
+
+  <div class="section" id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>HTML - Intermediate</li>
+      <li>CSS - Beginner</li>
+      <li>JavaScript - Beginner</li>
+      <li>Flutter - Beginner</li>
+      <li>Problem Solving</li>
+      <li>Teamwork</li>
+    </ul>
+  </div>
+
+  <div class="section" id="projects">
+    <h2>Projects</h2>
+
+    <h3>1. My First Website</h3>
+    <p>This was my very first website using only HTML. It includes images, lists, and paragraphs.</p>
+
+    <h3>2. Book Review Page</h3>
+    <p>A simple page where I wrote book reviews and added links to buy the books online.</p>
+    <img src="C:\Users\w10\Downloads\sh.jpg" alt="Project Image">
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact Me</h2>
+
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="phone">Phone (Optional):</label>
+      <input type="tel" id="phone" placeholder="Ex: +20 100 1234567">
+
+      <label for="type">Message Type:</label>
+      <select id="type">
+        <option value="question">Inquiry</option>
+        <option value="thanks">Appreciation</option>
+        <option value="issue">Report a Problem</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="4" placeholder="Type your message here..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <div class="footer">
+    <p>© 2025 Shrouk Nasr. All rights reserved.</p>
+    <div class="social-icons">
+      Follow me: 
+      <a href="https://twitter.com/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+      <a href="https://www.linkedin.com/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+    </div>
+  </div>
+
+</body>
+</html>
