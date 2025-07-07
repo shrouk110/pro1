@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shrouk Portfolio</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4202/4202849.png" type="image/png" />
+ <link rel="stylesheet" href="style2.css" />
+
+
+</head>
+<body>
+
+  <!-- ===== Header Section ===== -->
+  <header>
+    <h1>Shrouk Nasr ✨</h1>
+
+    <!-- Profile Image with SVG Circle -->
+    <div style="position: relative; width: 120px; height: 120px; margin: 20px auto 0;">
+      <svg width="120" height="120" style="position: absolute; top: 0; left: 0;">
+        <circle cx="60" cy="60" r="55" stroke="#b35457" stroke-width="4" fill="#f8dada" />
+      </svg>
+
+      <img src="profile.png" alt="My Photo"
+           style="width: 110px; height: 110px; border-radius: 50%;
+                  object-fit: cover; position: absolute; top: 5px; left: 5px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);" />
+    </div>
+  </header>
+
+  <!-- ===== Navigation Menu ===== -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ===== About Section ===== -->
+  <section id="about">
+    <h2>About Me 👩‍💻</h2>
+    <p>Hello! My name is Shrouk Nasr. I'm a passionate learner interested in programming and design.</p>
+    <blockquote>"Learning never exhausts the mind." – Leonardo da Vinci</blockquote>
+  </section>
+
+  <!-- ===== Skills Section ===== -->
+  <section id="skills">
+    <h2>My Skills 🧠</h2>
+    <ul>
+      <li><img src="https://cdn-icons-png.flaticon.com/128/1055/1055687.png" alt="HTML Icon">HTML - Intermediate</li>
+      <li><img src="https://cdn-icons-png.flaticon.com/128/732/732190.png" alt="CSS Icon">CSS - Beginner</li>
+      <li><img src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" alt="JS Icon">JavaScript - Beginner</li>
+      <li><img src="https://cdn-icons-png.flaticon.com/128/888/888859.png" alt="Flutter Icon">Flutter - Beginner</li>
+      <li><img src="https://cdn-icons-png.flaticon.com/128/4140/4140048.png" alt="Puzzle Icon">Problem Solving</li>
+      <li><img src="https://cdn-icons-png.flaticon.com/128/4140/4140051.png" alt="Team Icon">Teamwork</li>
+    </ul>
+  </section>
+
+  <!-- ===== Projects Section ===== -->
+  <section id="projects">
+    <h2>Projects 📁</h2>
+
+    <h3>1. My First Website</h3>
+    <p>This was my very first website using only HTML. It includes images, lists, and paragraphs.</p>
+
+    <h3>2. Book Review Page</h3>
+    <p>A simple page where I wrote book reviews and added links to buy the books online.</p>
+    <img src="sh.jpg" alt="Project Image">
+
+    <h3>3. My Introduction Video</h3>
+    <video width="100%" controls>
+      <source src="vidio.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section id="contact">
+    <h2>Contact Me 📬</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="phone">Phone (Optional):</label>
+      <input type="tel" id="phone" placeholder="Ex: +20 100 1234567">
+
+      <label for="type">Message Type:</label>
+      <select id="type">
+        <option value="question">Inquiry</option>
+        <option value="thanks">Appreciation</option>
+        <option value="issue">Report a Problem</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="4" placeholder="Type your message here..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- ===== Footer Section ===== -->
+  <div class="footer">
+    <p>© 2025 Shrouk Nasr. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+      </a>
+      <a href="https://www.linkedin.com/in/shrouk-nasser-8736a1304/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
