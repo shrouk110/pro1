@@ -1,0 +1,135 @@
+body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #fdf2f2;
+      color: #333;
+      line-height: 1.6;
+      padding: 0 20px;
+    }
+
+    header {
+      background-color: #b35457;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #8e3c3e;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #c7696c;
+    }
+
+    section {
+      margin: 50px auto;
+      max-width: 700px;
+      padding: 30px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+      background-color: transparent;
+    }
+
+    h2 {
+      color: #b35457;
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      color: #8e3c3e;
+      margin-top: 25px;
+    }
+
+    ul {
+      padding-left: 20px;
+      list-style: none;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    ul li img {
+      width: 20px;
+      vertical-align: middle;
+      margin-right: 8px;
+      border-radius: 50%;
+    }
+
+    form label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #bbb;
+      border-radius: 6px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    button {
+      margin-top: 20px;
+      background-color: #b35457;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #8e3c3e;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+
+    .footer {
+      background-color: #f8dada;
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .footer a {
+      color: #b35457;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .social-icons img {
+      width: 24px;
+      margin: 0 5px;
+      vertical-align: middle;
+      border-radius: 50%;
+    

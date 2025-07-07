@@ -1,0 +1,109 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 60% 40%;
+      height: 100vh;
+      position: relative;
+    }
+
+    .left {
+      background-color: #121922;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .logo {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #ffdee3;
+  z-index: 999;
+}
+
+
+    .greeting {
+      color: #b35457;
+      margin-bottom: 10px;
+    }
+
+    .left h1 {
+      font-size: 48px;
+      line-height: 1.2;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    .left h1 span {
+      display: block;
+    }
+
+   .btn {
+  display: inline-block;
+    background: linear-gradient(to right, #b35457, #8e3c3e);
+  color: white;
+  padding: 12px 20px; 
+  max-width: 200px;  
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+
+    .btn:hover {
+      background: linear-gradient(to right, #c7696c, #8e3c3e);
+    }
+
+    .btn span {
+      margin-left: 10px;
+    }
+
+    .right {
+  background-color: #f8dada;
+
+
+      position: relative;
+    }
+
+    .contact {
+      position: absolute;
+      top: 30px;
+      right: 40px;
+      color: #121922;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      z-index: 2;
+    }
+
+    .contact img {
+      width: 20px;
+    }
+
+    .profile {
+      position: absolute;
+      bottom: 0;
+      left: 64%; 
+      transform: translateX(-50%);
+      height: 100%;
+      object-fit: contain;
+      z-index: 3;
+    }
